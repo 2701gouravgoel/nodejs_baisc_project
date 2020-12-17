@@ -1,0 +1,33 @@
+.top{
+    display: flex;
+    color: blanchedalmond;
+    font-size: 5rem;
+    background-color: black;
+    text-align: center;
+    flex-direction: column;
+}
+.table{
+    margin-top: 100px;
+    display: flex;
+    border: black;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    font-size: 5rem;
+    align-items: flex-start;
+}
+.input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 5rem;
+}
+.button{
+    
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 5rem;
+    margin-left: 40%;
+}

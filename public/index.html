@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="top">
+        <div>
+            Student Portal
+        </div>
+    </div>
+    <form action="http://127.0.0.1:8081/myaction" method="POST">
+        <table class="table">
+            <tr>
+                <th><label for="name">Name:</label></th>
+                <th><input class="input" type="text" name="name" placeholder="Student Name"/></th>
+            </tr>
+            <tr>
+                <th><label for="name">Email:</label></th>
+                <th><input class="input" type="email" name="Email" placeholder="Student Email"/></th>
+            </tr>
+            <tr>
+                <th><label for="name">Semester:</label></th>
+                <th><input class="input" type="number" name="Sem" placeholder="Semester"/></th>
+            </tr>
+            <tr>
+                <th><label for="name">CG:</label></th>
+                <th><input class="input" type="number" name="cg" placeholder="CG"/></th>
+            </tr>
+            <tr>
+                <th><input  type="submit" class="button" value="Insert this entry" /></th>
+            </tr>
+            
+        </table>
+    </form>
+    <button onclick="location.href = 'http://127.0.0.1:8081/edit.html';" type="button" class="button">Edit Entry</button>
+    <button onclick="location.href = 'http://127.0.0.1:8081/delete.html';" type="button" class="button">Delete Entry</button>
+    <button onclick="location.href = 'http://127.0.0.1:8081/read.html';" type="button" class="button">Get CG</button>
+</body>
+</html>
